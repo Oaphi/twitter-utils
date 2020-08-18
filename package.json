@@ -4,7 +4,8 @@
   "description": "Collection of JavaScript utilities for Twitter API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "monitored": "nodemon --exec npm run test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "jshint": "^2.12.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4"
   }
 }
